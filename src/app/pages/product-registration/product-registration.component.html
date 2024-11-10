@@ -1,0 +1,21 @@
+<div class="container">
+<div class="row">
+    <div class="col-6">
+      
+    </div>
+    <div class="col-6">
+        <div>
+            <label  class="form-label" for="product-name" type="text" > Product Name</label>
+            <input class="form-control" id="product-name" [(ngModel)]="product.name"   type="text">
+        </div>
+        <div>
+            <label  class="form-label" for="product-description" type="text" > Product Description</label>
+            <input class="form-control" id="product-description" [(ngModel)]="product.description"  type="text">
+        </div>
+    <button (click)="register()" class="btn btn-primary"> Register</button>
+   
+    </div>
+</div>
+   
+
+</div>
